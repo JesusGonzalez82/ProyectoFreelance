@@ -1,0 +1,30 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px; /* 1rem = 10px */
+}
+
+h1{
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.header-span{
+    font-size: 2rem
+}
+
+
+
+.icon-map__pin{
+    color: #48e;
+    width: 80px;
+    height: 80px;
+}
+
+.icon-palette, .icon-laptop, .icon-card{
+    color: #48e;
+    width: 40px;
+    height: 40px;
+}
