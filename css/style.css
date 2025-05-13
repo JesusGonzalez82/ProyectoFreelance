@@ -1,30 +1,42 @@
+:root{
+    --blanco: #fff;
+    --grey: #575e55;
+    --icon: #48e;
+    --secundario: #e8a249;
+    --dark: #000;
+}
+
 html{
     font-size: 62.5%;
 }
 
 body{
     font-size: 16px; /* 1rem = 10px */
+    font-family: "ABeeZee", sans-serif;
 }
 
-h1{
+.header__h1{
     text-align: center;
     font-size: 3.8rem;
+    font-weight: bold;
+    font-style: normal;
 }
 
-.header-span{
-    font-size: 2rem
+.header__span{
+    font-size: 2rem;
+    
+    font-weight: 400;
+    font-style: italic;
 }
-
-
 
 .icon-map__pin{
-    color: #48e;
-    width: 80px;
-    height: 80px;
+    color: var(--icon);
+    width: 70px;
+    height: 70px;
 }
 
 .icon-palette, .icon-laptop, .icon-card{
-    color: #48e;
+    color: var(--grey);
     width: 40px;
     height: 40px;
 }
